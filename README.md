@@ -1,5 +1,4 @@
-# 记录MCSL群内神秘语录
-## By React & Material UI
+#By React & Material UI
 
 ### 运行：`npm start`
 
