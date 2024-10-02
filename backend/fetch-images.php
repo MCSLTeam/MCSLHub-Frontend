@@ -1,7 +1,7 @@
 <?php
-$owner = 'MCSLTeam'; // GitHub ÓÃ»§Ãû
-$repo = 'MCSLHub'; // ²Ö¿âÃû³Æ
-$path = 'img'; // Í¼Æ¬ÔÚ²Ö¿âÖÐµÄÂ·¾¶
+$owner = 'MCSLTeam'; // GitHub ç”¨æˆ·å
+$repo = 'MCSLHub'; // ä»“åº“åç§°
+$path = 'img'; // å›¾ç‰‡åœ¨ä»“åº“ä¸­çš„è·¯å¾„
 $token = ''; // GitHub token
 
 $url = "https://api.github.com/repos/$owner/$repo/contents/$path";
@@ -9,7 +9,7 @@ $opts = [
     "http" => [
         "method" => "GET",
         "header" => [
-            "User-Agent: PHP",
+            "User-Agent: Mozilla/5.0 (PHP 8.0 Linux) MCSLAgent/1.0 ",
             "Authorization: token $token"
         ]
     ]
